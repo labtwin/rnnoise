@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 project(rnnoise)
 
-option(RNNOISE_COMPILE_OPUS ON)
+option(RNNOISE_COMPILE_OPUS OFF)
 
 if(RNNOISE_COMPILE_OPUS)
 	add_definitions(-DCOMPILE_OPUS)
